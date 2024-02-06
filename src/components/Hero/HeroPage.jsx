@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import logo from '../../assets/logo.png';
 import Button from '../Button';
-import Modal from '../Modal/Modal';
-
+import Modal from '../Modal/Modal'
+                
 const HeroPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -32,11 +32,11 @@ const HeroPage = () => {
   };
 
   return (
-    <div className='bg-white-800 text-green-900 mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}
-        <h1 className='font-bold text-4xl md:text-5xl lg:text-6xl  mx-6 md:ml-0'>
+        <h1 className='text-lime-500 font-A font-bold text-4xl md:text-5xl lg:text-6xl  mx-6 md:ml-0'>
           <br />
           <Typewriter
             words={strings}
@@ -55,20 +55,20 @@ const HeroPage = () => {
         </p>
 
         {/* Your btn goes here */}
-        <button className="ring-2 bg-green-900 ring-green-500 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-40" onClick={openModal}>
+        
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:ml-0'>
+          <button className="ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-lime-500 bg-lime-500 ring-lime-500" onClick={openModal}>
             BUY TOKEN
           </button>
-          <Modal isOpen={modalOpen} onClose={closeModal} />
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:ml-0'>
-            
+            <Modal isOpen={modalOpen} onClose={closeModal} />  
           
        
 
-          <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
 
           {/* Add music to the last button */}
-          <Button onClick={togglePlay}>{isPlaying ? 'PAUSE MUSIC' : 'PLAY MUSIC'}</Button>
+          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY MUSIC'}</Button>
         </div>
+        <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
 
       
       </div>
