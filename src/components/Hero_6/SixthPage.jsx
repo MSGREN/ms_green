@@ -4,7 +4,7 @@ import MainComponent from "../InnerSlider/InnerSlider";
 
 function SixthPage() { 
   return (
-    <div data-aos="fade-up" data-aos-duration="3000" className="bg-green-900 mt-0">
+    <div data-aos="fade-up" data-aos-duration="2000" className="bg-green-900 mt-0 px-10">
       <div className="px-5 py-5">
         <div>
           <article className="text-wrap py-10">

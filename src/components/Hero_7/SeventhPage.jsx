@@ -1,4 +1,4 @@
-import Accordion from "./Accordion";
+import Accordion from "../Accordion";
 import { useState } from "react";
 
 const SeventhPage = () => {
@@ -9,7 +9,7 @@ const SeventhPage = () => {
 
   return (
     <div>
-      <div data-aos="fade-up" data-aos-duration="3000" className="text-5xl text-center my-16">
+      <div data-aos="fade-up" data-aos-duration="2000" className="text-5xl text-center my-16 px-10">
         <span>Ms Green's Quote</span>
       </div>
       <div className="hs-accordion-group md:mx-52">

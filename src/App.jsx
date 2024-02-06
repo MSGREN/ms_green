@@ -8,7 +8,7 @@ import SixthPage from './components/Hero_6/SixthPage'
 import Footer from './components/Footer/Footer'
 import ScrollToTopButton from './components/ScrollBtn/ScrollToTopButton'
 import ProgressPieLoder from './components/Progress/Progress'
-import SeventhPage from './components/SeventhPage'
+import SeventhPage from './components/Hero_7/SeventhPage'
 
 
 function App() {

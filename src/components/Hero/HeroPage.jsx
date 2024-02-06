@@ -32,7 +32,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div data-aos="fade-up" data-aos-duration="3000" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div data-aos="zoom-in-up" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10'>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}
@@ -54,6 +54,7 @@ const HeroPage = () => {
           a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀
         </p>
 
+      
         {/* Your btn goes here */}
         
         <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:ml-0'>
@@ -66,14 +67,14 @@ const HeroPage = () => {
 
 
           {/* Add music to the last button */}
-          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY MUSIC'}</Button>
+          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY'}</Button>
         </div>
         <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
 
       
       </div>
 
-      <div data-aos="zoom-in-up" className='md:col-span-1 mx-6 md:ml-0'>
+      <div className='md:col-span-1 mx-6 md:ml-0'>
         {/* Your image goes here */}
         <img src={logo} className='w-max md:w-auto max-h-3/4  md:h-3/4 md:py-6 object-contain' />
       </div>

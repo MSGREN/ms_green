@@ -31,7 +31,7 @@ const Modal = ({ isOpen, onClose }) => {
            
             </h1>
 
-            <button className='ring-2 bg-green-900 ring-green-500 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-400 ml-10'>
+            <button className="ring-1 bg-green-900 ring-lime-500 group-hovering:ring-1 transition duration-300 text-white px-4 py-2 m-2 md:text-sm rounded md:font-sm hover:ring-white">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdn4j77PlNjj7ByXv7YinO-LhC2UBu1-5mkWyOq9Y2HeHHYfQ/viewform?usp=send_form">JOIN WISHLIST</a>
             </button>
           </div>
