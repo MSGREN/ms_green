@@ -67,7 +67,7 @@ const HeroPage = () => {
 
 
           {/* Add music to the last button */}
-          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY MUSIC'}</Button>
+          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY'}</Button>
         </div>
         <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
 

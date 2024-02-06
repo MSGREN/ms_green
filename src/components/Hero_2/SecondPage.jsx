@@ -7,7 +7,7 @@ const SecondPage = () => {
   return (
     <div className="flex flex-col md:flex-row mb-5 relative ">
       {/* Left Column */}
-      <div className="md:flex-1 px-10">
+      <div className="md:flex-1 px-10 ">
         {/* Add your text here */}
         <p className="p-4 md:p-11 font-extrabold text-4xl md:text-[40px] mt-12">
           The Sweetest Ride in <br /> Crypto
