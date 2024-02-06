@@ -29,9 +29,9 @@ const SecondPage = () => {
           2023 has been a whirlwind adventure – we've taken centre stage <br /> in headlines, and now we're gearing up to crank things up a <br /> notch. Brace yourself, because Ms $Green narrative has woven <br /> its magic, infusing our community with an electric spirit that's <br /> brought together a lively crew of devoted enthusiasts.
         </p>
 
-        <Button>
+        <button className="ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-lime-500 bg-lime-500 ring-lime-500">
           WAITLIST
-        </Button>
+        </button>
       </div>
 
       {/* Third Page */}
