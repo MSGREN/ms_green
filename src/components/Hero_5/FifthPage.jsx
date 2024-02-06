@@ -3,9 +3,9 @@ import Tokenomics from "../../assets/tokenomics.png";
 
 const FifthPage = () => {
   return (
-    <div className="mt-3 px-20 bg-green-900">
+    <div className="mt-3 px-20 bg-green-900 ">
       <p className="font-extrabold text-[40px] text-center pt-8 text-green-400">Tokenomics</p>
-      <div className="flex justify-between items-center gap-4">
+      <div className="flex justify-between items-center gap-4 ">
         <div className="bg-white-800 mt-20 py-14 text-center md:text-left mx-52 md:mx-0">
           {/* Added text-center for mobile */}
           <div className="flex gap-4 ">

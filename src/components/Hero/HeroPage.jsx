@@ -32,7 +32,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10'>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}
@@ -54,14 +54,11 @@ const HeroPage = () => {
           a playful token, a tasty potential.Sweeten your <br /> portfolio today! 🍬🪙🚀
         </p>
 
-<<<<<<< HEAD
-        <button className="ring-1 bg-green-900 ring-lime-500 group-hovering:ring-1 transition duration-300 text-white px-4 py-2 m-2 md:text-sm rounded md:font-sm hover:ring-white" onClick={openModal}>
-=======
+      
         {/* Your btn goes here */}
         
         <div className='grid grid-cols-1 md:grid-cols-2 gap-2 md:ml-0'>
           <button className="ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-lime-500 bg-lime-500 ring-lime-500" onClick={openModal}>
->>>>>>> origin/master
             BUY TOKEN
           </button>
             <Modal isOpen={modalOpen} onClose={closeModal} />  
