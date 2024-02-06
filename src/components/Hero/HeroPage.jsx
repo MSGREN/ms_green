@@ -32,7 +32,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
+    <div data-aos="fade-up" data-aos-duration="3000" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14'>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}
@@ -73,7 +73,7 @@ const HeroPage = () => {
       
       </div>
 
-      <div className='md:col-span-1 mx-6 md:ml-0'>
+      <div data-aos="zoom-in-up" className='md:col-span-1 mx-6 md:ml-0'>
         {/* Your image goes here */}
         <img src={logo} className='w-max md:w-auto max-h-3/4  md:h-3/4 md:py-6 object-contain' />
       </div>

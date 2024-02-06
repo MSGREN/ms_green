@@ -2,7 +2,7 @@ import React from "react";
 
 const FourthPage = () => {
   return (
-    <div className="flex flex-col mt-[600px] md:flex-row "> {/* Adjusted margin for better mobile view */}
+    <div data-aos="fade-up" data-aos-duration="3000" className="flex flex-col mt-[600px] md:flex-row "> {/* Adjusted margin for better mobile view */}
       {/* Left Column */}
       <div className="md:flex-1">
         {/* Add your text here */}

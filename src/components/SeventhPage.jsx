@@ -9,7 +9,7 @@ const SeventhPage = () => {
 
   return (
     <div>
-      <div className="text-5xl text-center my-16">
+      <div data-aos="fade-up" data-aos-duration="3000" className="text-5xl text-center my-16">
         <span>Ms Green's Quote</span>
       </div>
       <div className="hs-accordion-group md:mx-52">
