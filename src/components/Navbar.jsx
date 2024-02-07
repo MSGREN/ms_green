@@ -24,9 +24,9 @@ function Navbar() {
               <img src={logo} height={100} width={70} className="" alt="Logo" />
             </span>
             <div onClick={toggleMenu} className="cursor-pointer md:hidden">
-              <button className="px-3 py-2 border-2 rounded text-white hover:text-white hover:border-white">
+              <button className="px-3 py-2 border-2  rounded text-white hover:text-white hover:border-white">
                 <svg
-                  className="fill-current h-3 w-3"
+                  className="fill-current h-3 w-3 right-0"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg">
                   <title>Menu</title>

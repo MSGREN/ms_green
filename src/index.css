@@ -6,6 +6,7 @@
   font-family: 'Poppins';
   line-height: 1.5;
   font-weight: 400;
+  container:  min(96rem, 100vw);
 
   color-scheme: light dark;
   color: white;

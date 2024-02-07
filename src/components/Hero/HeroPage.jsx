@@ -32,7 +32,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div data-aos="zoom-in-up" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10'>
+    <div data-aos="zoom-in-up" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10 '>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}

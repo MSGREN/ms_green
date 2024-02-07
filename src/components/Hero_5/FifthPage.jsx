@@ -24,7 +24,7 @@ const FifthPage = () => {
           </div>
 
           <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-blue-500 rounded-full mb-10 col-span-1 md:ml-20"></div>
+            <div className="flex items-center justify-center w-6 h-6 bg-blue-500 rounded-full mb-10 md:ml-20"></div>
             <span className="text-lime-500">Team 15 Month locked</span>
           </div>
 
