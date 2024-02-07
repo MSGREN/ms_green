@@ -5,7 +5,7 @@ import FourthPage from '../Hero_4/FourthPage';
 
 const SecondPage = () => {
   return (
-    <div className="flex flex-col md:flex-row mb-5 relative ">
+    <div  data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:flex-row mb-5 relative ">
       {/* Left Column */}
       <div className="md:flex-1 px-10 ">
         {/* Add your text here */}

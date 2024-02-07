@@ -32,7 +32,7 @@ const HeroPage = () => {
   };
 
   return (
-    <div className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10'>
+    <div data-aos="zoom-in-up" className='bg-white-800 text-white mt-20 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 px-10'>
       {/* Your text goes here */}
       <div className='col-span-1 md:ml-20'>
         {/* Your type effect goes here */}
@@ -67,9 +67,9 @@ const HeroPage = () => {
 
 
           {/* Add music to the last button */}
-          <Button onClick={togglePlay} className="w-40">{isPlaying ? 'PAUSE MUSIC' : 'PLAY'}</Button>
+          <button onClick={togglePlay} className="ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-white hover:text-lime-500 bg-green-950 ring-lime-500">{isPlaying ? 'PAUSE MUSIC' : 'PLAY'}</button>
         </div>
-        <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
+        <button className='ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-white hover:text-lime-500 bg-green-950 ring-lime-500'><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></button>
 
       
       </div>

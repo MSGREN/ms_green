@@ -18,8 +18,8 @@ function Navbar() {
   return (
     <div>
       <div className="shadow-md w-full fixed z-10 top-0 left-0">
-        <div className="md:flex justify-between bg-green-950 py-3 md:px-5 px-20">
-          <div className="lg:flex flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
+        <div className="md:flex justify-between bg-green-950 opacity-90 py-4 lg:px-32 md:px-5">
+          <div className="lg:flex px-10 flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>
               <img src={logo} height={100} width={70} className="" alt="Logo" />
             </span>
@@ -50,7 +50,7 @@ function Navbar() {
             
             <div className="md:flex md:ml-4">
               <Button>BUY TOKEN</Button>
-              <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
+              <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITEPAPER</a></Button>
             </div>
           </ul>
         </div>

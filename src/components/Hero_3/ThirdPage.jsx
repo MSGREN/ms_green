@@ -15,7 +15,7 @@ function ThirdPage() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-5">
+    <div data-aos="zoom-in-up" className="flex flex-col items-center mt-5">
       <img src={pics} alt="Picture" className="mb-4" />
       
       <div className="relative bg-green-400 h-full rounded-full self-center-start-15 -m-80 w-20 ">
