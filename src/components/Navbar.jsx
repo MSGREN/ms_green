@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <div>
-      <div className="shadow-md w-full fixed z-10 top-0 left-0">
+      <div className="shadow-md w-full fixed z-10 top-0 left-0 ">
         <div className="md:flex justify-between bg-green-950 py-3 md:px-5 px-20">
           <div className="lg:flex flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>

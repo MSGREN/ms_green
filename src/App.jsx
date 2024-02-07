@@ -13,7 +13,7 @@ import SeventhPage from './components/Hero_7/SeventhPage'
 
 function App() {
   return (
-    <div className='container'>
+    <div >
       <Navbar />
       <HeroPage />
       <SecondPage/>
