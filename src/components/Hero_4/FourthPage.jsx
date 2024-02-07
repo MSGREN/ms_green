@@ -2,7 +2,7 @@ import React from "react";
 
 const FourthPage = () => {
   return (
-    <div data-aos="zoom-in-up" className="flex flex-col mt-[600px] md:flex-row  px-10"> {/* Adjusted margin for better mobile view */}
+    <div data-aos="zoom-in-up" className="flex flex-col mt-[650px] md:flex-row mb-16 px-10"> {/* Adjusted margin for better mobile view */}
       {/* Left Column */}
       <div className="md:flex-1">
         {/* Add your text here */}

@@ -17,8 +17,8 @@ function Navbar() {
 
   return (
     <div>
-      <div className="shadow-md w-full fixed z-10 top-0 left-0">
-        <div className="md:flex justify-between bg-green-950 opacity-90 py-4 lg:px-32 md:px-5">
+      <div className="shadow-md0 w-full fixed z-10 top-0 left-0">
+        <div className="md:flex justify-between bg-green-950 py-4 lg:px-32 md:px-5">
           <div className="lg:flex px-10 flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>
               <img src={logo} height={100} width={70} className="" alt="Logo" />
@@ -43,7 +43,7 @@ function Navbar() {
             {Links.map((link, index) => (
               <li
                 key={index}
-                className="md:ml-4 py-2 text-md text-white hover:text-lime-500 duration-500">
+                className="md:ml-4 mx-3 py-2 text-md text-white hover:text-lime-500 duration-500">
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}
