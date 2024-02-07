@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import { useState } from "react";
-
+ 
 function Navbar() {
   let Links = [
     { name: "ABOUT", link: "#" },
@@ -43,11 +43,11 @@ function Navbar() {
             {Links.map((link, index) => (
               <li
                 key={index}
-                className="md:ml-4 py-2 text-md text-white hover:text-lime-500 duration-500">
+                className="md:ml-4 relative text-md w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-lime-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}
-
+            
             <div className="md:flex md:ml-4">
               <Button>BUY TOKEN</Button>
               <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
