@@ -10,32 +10,32 @@ const FifthPage = () => {
           {/* Added text-center for mobile */}
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-yellow-600 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Pre-sale</span>
+            <span className="text-lime-500">Pre-sale</span>
           </div>
 
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-orange-600 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Liquidity Supply</span>
+            <span className="text-lime-500">Liquidity Supply</span>
           </div>
 
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Aggressive Marketing</span>
+            <span className="text-lime-500">Aggressive Marketing</span>
           </div>
 
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-blue-500 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Team 15 Month locked</span>
+            <span className="text-lime-500">Team 15 Month locked</span>
           </div>
 
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-blue-300 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Airdrop</span>
+            <span className="text-lime-500">Airdrop</span>
           </div>
 
           <div className="flex gap-4 ">
             <div className="flex items-center justify-center w-6 h-6 bg-green-300 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-green-600">Community Reward</span>
+            <span className="text-lime-500">Community Reward</span>
           </div>
         </div>
 

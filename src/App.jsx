@@ -13,7 +13,7 @@ import SeventhPage from './components/Hero_7/SeventhPage'
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <HeroPage />
       <SecondPage/>
@@ -24,7 +24,7 @@ function App() {
       <Footer />  
       <ScrollToTopButton/>
       <ProgressPieLoder />
-    </>
+    </div>
   )
 }
 

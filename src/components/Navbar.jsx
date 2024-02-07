@@ -1,7 +1,7 @@
 import logo from "../assets/logo.png";
 import Button from "./Button";
 import { useState } from "react";
-
+ 
 function Navbar() {
   let Links = [
     { name: "ABOUT", link: "#" },
@@ -17,9 +17,9 @@ function Navbar() {
 
   return (
     <div>
-      <div className="shadow-md0 w-full fixed z-10 top-0 left-0">
-        <div className="md:flex justify-between bg-green-950 py-4 lg:px-32 md:px-5">
-          <div className="lg:flex px-10 flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
+      <div className="shadow-md w-full fixed z-10 top-0 left-0">
+        <div className="md:flex justify-between bg-green-950 py-3 md:px-5 px-20">
+          <div className="lg:flex flex-shrink-0 justify-between font-bold text-2xl cursor-pointer flex items-center">
             <span>
               <img src={logo} height={100} width={70} className="" alt="Logo" />
             </span>
@@ -43,14 +43,14 @@ function Navbar() {
             {Links.map((link, index) => (
               <li
                 key={index}
-                className="md:ml-4 mx-3 py-2 text-md text-white hover:text-lime-500 duration-500">
+                className="md:ml-4 relative text-md w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-lime-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
                 <a href={link.link}>{link.name}</a>
               </li>
             ))}
-
+            
             <div className="md:flex md:ml-4">
               <Button>BUY TOKEN</Button>
-              <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITEPAPER</a></Button>
+              <Button><a href="https://drive.google.com/file/d/1SzU5-Ut2p3WF4Oiur8G1O3KHDssKrgpW/view">WHITE PAPER</a></Button>
             </div>
           </ul>
         </div>
