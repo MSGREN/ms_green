@@ -3,39 +3,38 @@ import Tokenomics from "../../assets/tokenomics.png";
 
 const FifthPage = () => {
   return (
-    <div data-aos="fade-up" data-aos-duration="2000" className="mt-3 px-20 bg-green-900 ">
-      <p className="font-extrabold text-[40px] text-center pt-8 text-green-400">Tokenomics</p>
-      <div className="flex justify-between items-center gap-4 ">
-        <div className="bg-white-800 mt-20 py-14 text-center md:text-left mx-52 md:mx-0">
-          {/* Added text-center for mobile */}
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-yellow-600 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-lime-500">Pre-sale</span>
+    <div className="mt-3 w-full lg:px-20 sm:px-4 bg-green-900">
+      <p className="font-extrabold text-[40px] text-center py-8 text-green-400">Tokenomics</p>
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-16 lg:gap-4">
+        <div className="flex flex-col gap-4 w-3/5 lg:w-1/2">
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-yellow-600 rounded-full"></div>
+            <span className="text-green-600">Pre-sale</span>
           </div>
 
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-orange-600 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-lime-500">Liquidity Supply</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-orange-600 rounded-full"></div>
+            <span className="text-green-600">Liquidity Supply</span>
           </div>
 
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-yellow-400 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-lime-500">Aggressive Marketing</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-yellow-400 rounded-full"></div>
+            <span className="text-green-600">Aggressive Marketing</span>
           </div>
 
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-blue-500 rounded-full mb-10 md:ml-20"></div>
-            <span className="text-lime-500">Team 15 Month locked</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-blue-500 rounded-full"></div>
+            <span className="text-green-600">Team 15 Month locked</span>
           </div>
 
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-blue-300 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-lime-500">Airdrop</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-blue-300 rounded-full"></div>
+            <span className="text-green-600">Airdrop</span>
           </div>
 
-          <div className="flex gap-4 ">
-            <div className="flex items-center justify-center w-6 h-6 bg-green-300 rounded-full mb-10 col-span-1 md:ml-20"></div>
-            <span className="text-lime-500">Community Reward</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center justify-center w-3 h-3 bg-green-300 rounded-full"></div>
+            <span className="text-green-600">Community Reward</span>
           </div>
         </div>
 

@@ -8,11 +8,11 @@ const SeventhPage = () => {
   };
 
   return (
-    <div>
-      <div data-aos="fade-up" data-aos-duration="2000" className="text-5xl text-center my-16 px-10">
+    <div className="pb-10">
+      <div className="text-5xl text-center my-10">
         <span>Ms Green's Quote</span>
       </div>
-      <div className="hs-accordion-group md:mx-52">
+      <div className="hs-accordion-group px-4 w-full md:w-2/3 text-center md:mx-auto">
         <Accordion
           id="hs-basic-with-arrow-heading-one"
           title="Quote 1"
