@@ -16,7 +16,7 @@ const HeroPage = () => {
   };
 
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioUrl = 'src/assets/MS$GREEN.mp3';
+  const audioUrl = '../../assets/MS$GREEN.mp3';
 
   const strings = ['Ms $Green', 'Green M&M', '$Green Token', 'Green M&M'];
 
