@@ -5,7 +5,7 @@ import FourthPage from '../Hero_4/FourthPage';
 
 const SecondPage = () => {
   return (
-    <div  data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:flex-row mb-5 relative ">
+    <div  data-aos="fade-up" data-aos-duration="2000" className="flex flex-col md:flex-row mb-[20px] relative ">
       {/* Left Column */}
       <div className="md:flex-1 px-10 ">
         {/* Add your text here */}
@@ -29,7 +29,7 @@ const SecondPage = () => {
           2023 has been a whirlwind adventure – we've taken centre stage <br /> in headlines, and now we're gearing up to crank things up a <br /> notch. Brace yourself, because Ms $Green narrative has woven <br /> its magic, infusing our community with an electric spirit that's <br /> brought together a lively crew of devoted enthusiasts.
         </p>
 
-        <button className="ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-lime-500 bg-lime-500 ring-lime-500">
+        <button className="mb-12 ring-1 w-40 group-hovering:ring-1 transition duration-300 text-white px-3 py-2 m-2 md:text-sm rounded md:font-sm hover:bg-green-950 hover:ring-lime-500 bg-lime-500 ring-lime-500">
           WAITLIST
         </button>
       </div>
