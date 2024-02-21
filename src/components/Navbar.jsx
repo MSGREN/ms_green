@@ -19,7 +19,7 @@ function Navbar() {
     <div>
       <div className="shadow-md w-full fixed z-10 top-0 left-0">
         <div className="md:flex justify-between bg-green-950  py-3 md:px-5">
-          <div className="lg:flex flex-shrink-0 justify-between px-28 font-bold text-2xl cursor-pointer flex items-center">
+          <div className="lg:flex flex-shrink-0 justify-between md:px-28 font-bold text-2xl cursor-pointer flex items-center">
             <span>
               <img src={logo} height={100} width={70} className="" alt="Logo" />
             </span>
