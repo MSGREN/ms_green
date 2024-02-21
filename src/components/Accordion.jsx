@@ -83,7 +83,7 @@ const Accordion = ({ id, title, content, isOpen, onToggle }) => {
         id={`${id}-collapse`}
         className={`hs-accordion-content ${
           isOpen
-            ? "w-full overflow-hidden transform transition-all mx-8 my-2 duration-300 ease-out"
+            ? "w-full overflow-hidden text-left transform transition-all mx-9 my-2 duration-300 ease-out"
             : "hidden"
         }`}
         aria-labelledby={id}

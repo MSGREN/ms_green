@@ -1,28 +1,29 @@
 const Slider_3 = () => {
   return (
     <div className="">
-      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
-        <span className="mt-2 px-2 md:px-5">Q2 2024</span>
+      <div className="flex gap-3 p-1 pb-10 md:p-7 text-lime-400">
+        <span className="mt-2 px-2 md:px-5">Q1 2025</span>
 
         <div>
-          <span className="text-lime-400 text-4xl">Chromatic Convergence</span>
+          <span className="text-lime-400 text-4xl">M&M's Moonbase:</span>
           <ul className="text-white">
-            <li>Minting Collectible Green NFT M&M and Pioneering Multicolored Collaborations.</li>
+            <li>Establish the first-evar meme-themed moonbase, where gravity in justa state of mind.</li>
+
+            <li>Crypto meets lunar laughter in this historic leap for memekind.</li>
           </ul>
         </div>
       </div>
 
       <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
-        <span className="mt-2 px-2 md:px-5">Q2 2024</span>
+        <span className="mt-2 px-2 md:px-5">Q2 2025</span>
 
         <div>
-          <span className="text-lime-400 text-4xl">Meme Mastermind meetups</span>
+          <span className="text-lime-400 text-4xl">Galactic Giggle Network</span>
           <ul className="text-white">
             <li>
-              Host virtual gatherings where meme enthusiasts share tips, tricks and their favorite
-              flavor od humor.
+              Spread meme joy across the galaxy with our intentelar communication platform.
             </li>
-            <li>It's like a potluck, but with memes (and fewer calories).</li>
+            <li>Memes: the universal language that unites civilizations far and wide.</li>
           </ul>
         </div>
       </div>
@@ -31,10 +32,22 @@ const Slider_3 = () => {
         <span className="mt-2 px-2 md:px-5">Q1 2025</span>
 
         <div>
-          <span className="text-lime-400 text-4xl">laughter Liquidity Pool</span>
+          <span className="text-lime-400 text-4xl">lCosmic Comedy Tour:</span>
           <ul className="text-white">
-            <li>Fill the meme-themed liquidity pool for some smooth trading action.</li>
-            <li>Because just like a bag of M&M's, our liquidity should be perfectly balance</li>
+            <li>Take the show on the road and hest mame events on planets, asteroids, and beyond.</li>
+            <li>Bringing laughter to the final frontier, one meme at a time.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
+        <span className="mt-2 px-2 md:px-5">Ongoing</span>
+
+        <div>
+          <span className="text-lime-400 text-4xl">Eternal Meme Legacy:</span>
+          <ul className="text-white">
+            <li>As we journey through the cosmes, our legacy lives on in mames and belly laughs.</li>
+            <li>Green M&M Meme Token: Spreading joy across galaxies, one meme at a time.</li>
           </ul>
         </div>
       </div>

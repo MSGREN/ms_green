@@ -3,41 +3,70 @@ import React from "react";
 const Slider_2 = () => {
   return (
     <div className="">
-      <div className=" flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
+
+      <div className=" flex gap-3 p-1 pb-10 md:p-7 text-lime-400">
         <span className="mt-2 px-2 md:px-5">Q2 2024</span>
 
         <div>
-          <span className="grid text-lime-400 text-4xl">Chromatic Convergence</span>
+          <span className="grid text-lime-400 text-4xl">Laughter Liquidity Pool:</span>
           <ul className="col text-white">
-            <li>Minting Collectible Green NFT M&M and Ploneering</li>
-            <li>Multicolored Collaborations.</li>
+            <li>Compete in the ultimate meme-making showdown and earn medals tand meme tokens, of corsets.
+            </li>
+            <li>It's the only Olympics where laughter is the winning soundtrack.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
+        <span className="mt-2 px-2 md:px-5">Q3 2024</span>
+
+        <div>
+          <span className="grid text-lime-400 text-4xl">Grand Staking Event:</span>
+          <ul className="col text-white">
+            <li>Staking of SOREEN to generate sats.</li>
           </ul>
         </div>
       </div>
 
       <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
-        <span className="mt-2 px-2 md:px-5">Q1 2024</span>
+        <span className="mt-2 px-2 md:px-5">Q4 2024</span>
 
         <div>
-          <span className="grid text-lime-400 text-4xl">Meme Mastermind Meetups:</span>
-          <ul className="col text-white">
-            <li>Host virtual gatherings where meme enthusiasts share</li>
-            <li>It's like a potluck, but with memes (and fewer calories).</li>
-          </ul>
-        </div>
-      </div>
-
-      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
-        <span className="mt-2 px-2 md:px-5">Q1 2024</span>
-
-        <div>
-          <span className="grid text-lime-400 text-4xl">Laughter Liquidity Pool</span>
+          <span className="grid text-lime-400 text-4xl">Mars Meme Rover:</span>
           <ul className="col text-white">
             <li>
-              Fill the meme-themed liquidity pool for some smooth <br />
-              trading action.
+              Launch our very own meme-themed rover to explore the Red Planet.
             </li>
-            <li>Because just like a bag of M&M's, our liquidity should be perfectly balanced.</li>
+            <li>Because memes are universal, and Martiane need a chuckie too.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
+        <span className="mt-2 px-2 md:px-5">Q4 2024</span>
+
+        <div>
+          <span className="grid text-lime-400 text-4xl">Grand Staking Event:</span>
+          <ul className="col text-white">
+            <li>
+             Staking of SOREEN to generate sats
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="flex gap-3  p-1 pb-10 md:p-7 text-lime-400">
+        <span className="mt-2 px-2 md:px-5">Q4 2024</span>
+
+        <div>
+          <span className="grid text-lime-400 text-4xl">Mars Meme Rover:</span>
+          <ul className="col text-white">
+            <li>
+              Launch our very own meme-themed rover to explore the Red Planet.
+            </li>
+            <li>
+              Because memes are universal, and Martiane need a chuckie too.
+            </li>
           </ul>
         </div>
       </div>
